@@ -1,0 +1,25 @@
+#include <iostream>
+#include <iomanip>
+
+//1008
+
+int main();
+
+int main(){
+
+    int A{};
+    int B{};
+
+    std::cin>>A>>B;
+
+    double divide{(double)A/(double)B}; //if there are no double in A & B, divide comes out with double but integer division inside
+                                        //ex. int A = 10, it B = 3 10/3 = 3 double = 3.0
+                                        //Therefore, put double in both A & B
+
+    std::cout<<std::fixed;
+    std::cout<<std::setprecision(9);
+    std::cout<<divide;
+
+    return 0;
+
+}
