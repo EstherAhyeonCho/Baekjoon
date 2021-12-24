@@ -1,0 +1,17 @@
+#include <iostream>
+
+//10950
+
+int main(){
+    int T, A, B{};
+    std::cin>>T;
+
+    for(int i{1}; i<=T; ++i){
+        std::cin>>A>>B;
+        
+        std::cout<<A+B<<std::endl;
+    
+    }
+    
+    return 0;
+}
