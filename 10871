@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+//10871
+
+int main(){
+    cin.tie(NULL);
+    
+    int N,X{};
+    cin>>N>>X;
+
+    for(int i{1}; i<=N; ++i){
+        int S{};
+        cin>>S;
+
+        if(S<X){
+            cout<<S<<" ";
+        }
+    }
+    
+    return 0;
+}
