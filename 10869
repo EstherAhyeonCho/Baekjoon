@@ -1,0 +1,28 @@
+#include <iostream>
+
+//10869
+
+int main();
+
+int main(){
+
+    int A{};
+    int B{};
+
+    std::cin>>A>>B;
+
+    int sum{A+B};
+    int sub{A-B};
+    int mult{A*B};
+    int div{A/B};
+    int mod{A%B};
+
+    std::cout<<sum<<std::endl;
+    std::cout<<sub<<std::endl;
+    std::cout<<mult<<std::endl;
+    std::cout<<div<<std::endl;
+    std::cout<<mod<<std::endl;
+
+    return 0;
+
+}
