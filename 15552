@@ -1,0 +1,19 @@
+#include <iostream>
+
+//15552
+
+int main(){
+    std::cin.tie(NULL);
+
+    int T, A, B{};
+    std::cin>>T;
+
+    for(int i{1}; i<=T; ++i){
+        std::cin>>A>>B;
+    
+        std::cout<<A+B<<"\n";
+    
+    }
+    
+    return 0;
+}
