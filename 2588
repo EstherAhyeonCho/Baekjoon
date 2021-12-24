@@ -1,0 +1,35 @@
+#include <iostream>
+
+//2588
+
+int main();
+
+int main(){
+
+    int A{};
+    int B{};
+
+    
+    std::cin>>A;
+
+    
+    std::cin>>B;
+
+    int firstDigit{B%10};
+    int secondDigit{(B/10)%10};
+    int thridDigit{(B/100)%10};
+
+    int one{A*firstDigit};
+    int two{A*secondDigit};
+    int three{A*thridDigit};
+    int four{A*B};
+
+    std::cout<<one<<std::endl;
+    std::cout<<two<<std::endl;
+    std::cout<<three<<std::endl;
+    std::cout<<four<<std::endl;
+    
+
+    return 0;
+
+}
