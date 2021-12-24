@@ -1,0 +1,27 @@
+#include <iostream>
+
+//9498
+
+int main();
+
+int main(){
+
+    int x{};
+
+    std::cin>>x;
+
+    if (x>=90){
+        std::cout<<'A';
+    }else if (x>=80 && x<90){
+        std::cout<<'B';
+    }else if(x>=70 && x<80){
+        std::cout<<'C';
+    }else if(x>=60 && x<70){
+        std::cout<<'D';
+    }else{
+        std::cout<<'F';
+    }
+
+    return 0;
+
+}
