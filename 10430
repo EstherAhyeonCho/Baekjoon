@@ -1,0 +1,28 @@
+#include <iostream>
+
+//10430
+
+int main();
+
+int main(){
+
+    int A{};
+    int B{};
+    int C{};
+
+    std::cin>>A>>B>>C;
+
+    int one{(A+B)%C};
+    int two{((A%C)+(B%C))%C};
+    int three{(A*B)%C};
+    int four{((A%C)*(B%C))%C};
+
+    std::cout<<one<<std::endl;
+    std::cout<<two<<std::endl;
+    std::cout<<three<<std::endl;
+    std::cout<<four<<std::endl;
+    
+
+    return 0;
+
+}
